@@ -1,0 +1,7 @@
+linters:
+  ErbLint::Linters::SpaceAroundErbTag:
+    enabled: true
+  ErbLint::Linters::NoJavascriptTagHelper:
+    enabled: true
+  ErbLint::Linters::ClosingErbTagIndent:
+    enabled: true

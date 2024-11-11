@@ -1,0 +1,20 @@
+<div class="card my-3">
+  <div class="card-header">
+    You said
+  </div>
+  <div class="card-body">
+    <p class="card-text"><%= @question %></p>
+  </div>
+</div>
+<div class="card my-3">
+  <div class="card-header">
+    Coach replies
+  </div>
+  <div class="card-body">
+    <p class="card-text"><%= @answer %></p>
+  </div>
+</div>
+
+<%= link_to 'ask' do %>
+<div class="btn btn-primary">Ask a new question</div>
+<% end %>
